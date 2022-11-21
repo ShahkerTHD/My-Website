@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "feather-icons": "^4.29.0",
+    "use-sound": "^4.0.1"
+  }
+}
