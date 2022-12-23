@@ -379,28 +379,3 @@ main footer .bottom .social-medias .social-media:hover svg {
                  1px 10px 1px #919191,
                  1px 20px 40px rgba(0, 0, 0, 0.3);
 }
-.progress-bar{
-    width: 450px;
-    height: 30px;
-    border-radius: 20px;
-    border: 2px solid #fff;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-}
-.progress-bar::after{
-    content: '';
-    background: linear-gradient(135deg, #fd0000, #1d00ff);
-    width: 0;
-    height: 100%;
-    border-radius: 20px;
-    position: absolute;
-    animation: progress 2s linear forwards;
-}
-@keyframes progress {
-    100%{
-        width: 90%;
-    }
-}
