@@ -327,6 +327,23 @@ main footer .bottom .social-medias .social-media:hover svg {
   color: white;
 }
 
+.header a.active:hover{
+    text-shadow: -2px -2px 10px #fff,
+                2px 2px 10px #fff,
+                0 0 20px #00ff40,
+                0 0 40px #00ff40,
+                0 0 60px #00ff40,
+                0 0 80px #00ff40,
+                0 0 100px #00ff40;
+
+    box-shadow: 0 0 5px #fff,
+                inset 0 0 5px #fff,
+                0 0 20px #08f,
+                inset 0 0 20px #08f,
+                0 0 40px #08f,
+                inset 0 0 40px #08f;
+}
+
 /* Float the link section to the right */
 .header-right {
   float: right;
